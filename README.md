@@ -41,25 +41,27 @@ REACT_APP_API_BASE_URL=http://localhost:5000
 Adjust the URL if your backend is deployed elsewhere.
 
 Start the React development server:
-    ```
+    ```bash
     npm start
 ```
 Backend
 The backend is implemented with Express and MySQL. It provides APIs to fetch and update banner details, and track banner clicks.
 
 Installation
-Navigate to the backend directory:
-```
+1 Navigate to the backend directory:
+```bash
 cd backend
 ```
-Install dependencies:
-```
+2 Install dependencies:
+```bash
 npm install
 ```
+```bash
+node index
 ```
-npm start
 
-```
+Edit environment variables in server js as your config
+
 API Endpoints
 GET /api/banner: Fetches the current banner details.
 POST /api/banner: Updates the banner details.
